@@ -42,9 +42,9 @@
   height: 36px;
   border-radius: 8px;
   cursor: pointer;
-  background-color: #2ea44f;
+  background-color: #6d2ea4;
   background-image: var(--bs-gradient);
-  border-color: #2ea44f;
+  border-color: #6d2ea4;
   box-shadow: 0 1px 1px rgba(18, 21, 26, 0.075);
   color: #fff;
 }
