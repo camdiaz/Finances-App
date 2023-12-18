@@ -1,0 +1,50 @@
+.principal_container {
+  height: 100vh;
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "center";
+  align-items: "center";
+}
+
+.header_animation{
+    margin-top: -300px;
+}
+.tittle {
+  text-align: center;
+}
+.card_login {
+  backdrop-filter: blur(19px) saturate(153%);
+  -webkit-backdrop-filter: blur(19px) saturate(153%);
+  background-color: rgba(255, 255, 255, 0.62);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  height: 320px;
+  width: auto;
+  padding: 15px;
+}
+.form_login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container_input {
+  display: flex;
+  flex-direction: column;
+}
+.input_form {
+  width: 300px;
+  height: 30px;
+  border-radius: 8px;
+}
+.button_login {
+  margin-top: 10px;
+  width: 308px;
+  height: 36px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #6d2ea4;
+  background-image: var(--bs-gradient);
+  border-color: #6d2ea4;
+  box-shadow: 0 1px 1px rgba(18, 21, 26, 0.075);
+  color: #fff;
+}
